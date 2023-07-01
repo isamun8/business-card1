@@ -1,0 +1,106 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #343a40;
+    padding: 5px;
+    transition: transform 1.5s ease-in-out;
+    
+    
+    }
+
+.avatar:hover {
+    transform: rotate(720deg);
+    }
+
+.card {
+    width: 400px;
+    height: 185px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #6c757d;
+    color: #adb5bd;
+    text-shadow: 3px 3px 4px #000000;
+    border: 6px solid #343a40;
+    border-radius: 15px; 
+        
+    }
+    
+    
+    
+.text {
+   line-height:1.5em;
+  padding: calc(6.1*.15em);
+  background:
+    linear-gradient(to top,#343a40, #343a40) 
+      left 0 var(--a, bottom) .0em/calc(2*.01em) .05em repeat-x,
+    linear-gradient(to top,#e9ecef ,#e9ecef) 
+      var(--b, right) .0em bottom 0%/calc(2*.03em) .05em repeat-y,
+    
+     linear-gradient(to top,#343a40,#343a40) 
+      var(--c, left) 0 top .15em/calc(2*.03em) .15em repeat-y,
+    linear-gradient(to top,#e9ecef,#e9ecef) 
+      left .15em var(--d, top) 0%/calc(2*.15em) .05em repeat-x;
+    
+    -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,100%) padding-box no-repeat;
+  transition: 1s;
+  
+    }
+    
+    
+.text:hover {
+  --a: top;
+  --b:left;
+  --c: right;
+  --d: bottom;
+  --_p:100%;
+  color:#f8f9fa;
+  
+    }
+    
+               
+
+
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
